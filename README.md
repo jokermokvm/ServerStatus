@@ -74,12 +74,12 @@ web-dir参数为上一步设置的网站根目录，务必修改成自己网站�
 3、python client-psutil.py 运行即可。           
 ```
 ### for Centos：
-sudo yum -y install epel-release
-sudo yum -y install python-pip
-sudo yum clean all
-sudo yum -y install gcc
-sudo yum -y install python-devel
-sudo pip install psutil
+yum -y install epel-release
+yum -y install python-pip
+yum clean all
+yum -y install gcc
+yum -y install python-devel
+pip install psutil
 ### for Ubuntu/Debian:
 sudo root
 apt-get -y install python-setuptools python-dev build-essential
